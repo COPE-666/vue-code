@@ -36,9 +36,9 @@
     }
 </script>
 
-<style>
+<style scoped>
 #cy{
-    height: 300px;
+    height: 500px;
     width: 400px;
     background-color: #f9f9f9;
 }
