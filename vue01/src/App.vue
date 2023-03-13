@@ -1,10 +1,13 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" v-if="false">
-    <HelloWorld msg="Welcome to Your Vue.js App" v-if="false" />
-    <cyFirst></cyFirst>
-    <cySec></cySec>
-    <cyThree></cyThree>
+    <div style="text-align: initial;">
+      <HelloWorld msg="Welcome to Your Vue.js App" v-if="false" />
+      <cyFirst></cyFirst>
+      <cySec></cySec>
+      <cy3></cy3>
+    </div>
+    <!-- <cyThree></cyThree> -->
   </div>
 </template>
 
@@ -12,7 +15,8 @@
 import HelloWorld from './components/HelloWorld.vue'
 import cyFirst from '@/lib/cytoscape/cy-first.vue'
 import cySec from '@/lib/cytoscape/cy-sec.vue'
-import cyThree from '@/lib/cytoscape/cy-three.vue'
+import cy
+// import cyThree from '@/lib/cytoscape/cy-three.vue'
 
 export default {
   name: 'App',
@@ -20,7 +24,7 @@ export default {
     HelloWorld,
     cyFirst,
     cySec,
-    cyThree
+    // cyThree
   }
 }
 </script>
