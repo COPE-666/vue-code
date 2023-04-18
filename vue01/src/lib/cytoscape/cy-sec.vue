@@ -17,7 +17,12 @@
                 { selector: 'edge', 
                  // target-arrow-shape - triangle 箭头样式 - 三角形箭头
                   css: {'content': 'data(relationship)', 'target-arrow-shape': 'triangle'}
-                }        
+                },
+                { selector: '#172', 
+                 // target-arrow-shape - triangle 箭头样式 - 三角形箭头
+                  css: { 'background-image': 'https://live.staticflickr.com/6098/6224655456_f4c3c98589_b.jpg'}
+                }    
+                  
               ],
               elements: {
                 nodes: [

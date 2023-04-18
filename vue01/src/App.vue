@@ -9,6 +9,7 @@
       <cyFirst></cyFirst>
       <cySec></cySec>
       <cyFour></cyFour>
+      <cy5SimpleBox></cy5SimpleBox>
     </div>
     <!-- <cyThree></cyThree> -->
   </div>
@@ -20,6 +21,7 @@ import cyFirst from '@/lib/cytoscape/cy-first.vue'
 import cySec from '@/lib/cytoscape/cy-sec.vue'
 // import cyThree from '@/lib/cytoscape/cy-three.vue'
 import cyFour from './lib/cytoscape/cy-four.vue'
+import cy5SimpleBox from './lib/cytoscape/cy-5-simple-box.vue'
 
 export default {
   name: 'App',
@@ -27,7 +29,8 @@ export default {
     HelloWorld,
     cyFirst,
     cySec,
-    cyFour
+    cyFour,
+    cy5SimpleBox,
     // cyThree
   }
 }
